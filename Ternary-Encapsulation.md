@@ -13,7 +13,8 @@ To solve this problem, always encapsulate ternary operations when they are combi
 
 ```java
 MyObject something = /* some nullable value with a predetermined getter */;
-System.out.println("Returned value: " + (something == null ? null : something.getValue())); //note new parenthesis
+//note new parenthesis
+System.out.println("Returned value: " + (something == null ? null : something.getValue()));
 ```
 
 ```java
