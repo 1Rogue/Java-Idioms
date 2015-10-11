@@ -1,4 +1,4 @@
-When writing ternaries in code, all previous valid input before the ternary is evaluated in the ternary expression. This is especially problematic when you have debug output, or use ternarires flexibly in code.
+When writing ternaries in code, all previous valid input before the ternary is evaluated in the ternary expression. This is especially problematic when you have debug output, or use ternaries flexibly in code.
 
 ```java
 MyObject something = /* some nullable value with a predetermined getter */;
